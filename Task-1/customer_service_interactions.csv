@@ -1,0 +1,51 @@
+timestamp,user_id,message,response,topic,satisfaction
+2025-06-21 14:49:14,user381,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,5
+2025-06-21 15:19:14,user556,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,4
+2025-06-21 15:49:14,user403,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
+2025-06-21 16:19:14,user574,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,5
+2025-06-21 16:49:14,user944,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,4
+2025-06-21 17:19:14,user405,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,2
+2025-06-21 17:49:14,user543,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,3
+2025-06-21 18:19:14,user675,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
+2025-06-21 18:49:14,user970,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,4
+2025-06-21 19:19:14,user748,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,5
+2025-06-21 19:49:14,user815,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,1
+2025-06-21 20:19:14,user394,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,5
+2025-06-21 20:49:14,user706,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,2
+2025-06-21 21:19:14,user797,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,4
+2025-06-21 21:49:14,user478,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,1
+2025-06-21 22:19:14,user875,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,2
+2025-06-21 22:49:14,user515,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,3
+2025-06-21 23:19:14,user395,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,5
+2025-06-21 23:49:14,user283,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,2
+2025-06-22 00:19:14,user403,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,3
+2025-06-22 00:49:14,user460,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
+2025-06-22 01:19:14,user141,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,5
+2025-06-22 01:49:14,user230,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
+2025-06-22 02:19:14,user901,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
+2025-06-22 02:49:14,user870,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
+2025-06-22 03:19:14,user387,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,4
+2025-06-22 03:49:14,user873,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,1
+2025-06-22 04:19:14,user370,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,5
+2025-06-22 04:49:14,user568,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,5
+2025-06-22 05:19:14,user598,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,5
+2025-06-22 05:49:14,user532,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,3
+2025-06-22 06:19:14,user830,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,5
+2025-06-22 06:49:14,user116,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,3
+2025-06-22 07:19:14,user796,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,2
+2025-06-22 07:49:14,user823,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,1
+2025-06-22 08:19:14,user951,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,4
+2025-06-22 08:49:14,user843,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,5
+2025-06-22 09:19:14,user747,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,2
+2025-06-22 09:49:14,user158,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,3
+2025-06-22 10:19:14,user154,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,5
+2025-06-22 10:49:14,user792,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,2
+2025-06-22 11:19:14,user236,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,1
+2025-06-22 11:49:14,user875,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,3
+2025-06-22 12:19:14,user652,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,2
+2025-06-22 12:49:14,user898,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,2
+2025-06-22 13:19:14,user362,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,4
+2025-06-22 13:49:14,user875,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,5
+2025-06-22 14:19:14,user771,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,3
+2025-06-22 14:49:14,user352,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,3
+2025-06-22 15:19:14,user205,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,5
