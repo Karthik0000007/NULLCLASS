@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Support Analytics Dashboard</title>
+    <style>
+        :root {
+            --primary-color: #4361ee;
+            --secondary-color: #3f37c9;
+            --accent-color: #4895ef;
+            --light-color: #f8f9fa;
+            --dark-color: #212529;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .stat-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-card h2 {
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .stat-card p {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin: 0;
+        }
+        
+        .topics-section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .topics-section h2 {
+            color: var(--secondary-color);
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--accent-color);
+        }
+        
+        .topics-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .topics-list li {
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: var(--light-color);
+            border-left: 4px solid var(--accent-color);
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .topic-name {
+            font-weight: bold;
+        }
+        
+        .topic-count {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 1rem;
+        }
+        
+        .no-data {
+            text-align: center;
+            padding: 20px;
+            color: #6c757d;
+            font-size: 1.2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Customer Support Analytics Dashboard</h1>
+        </header>
+        
+        <div class="dashboard-grid">
+            <div class="stat-card">
+                <h2>Total Queries</h2>
+                <p>{{ total }}</p>
+            </div>
+            
+            <div class="stat-card">
+                <h2>Average Satisfaction</h2>
+                <p>{{ avg_rating }} <span style="font-size: 1.2rem; color: var(--dark-color);">/ 5</span></p>
+            </div>
+        </div>
+        
+        <div class="topics-section">
+            <h2>Top Topics</h2>
+            {% if topics %}
+                <ul class="topics-list">
+                    {% for topic, count in topics.items() %}
+                    <li>
+                        <span class="topic-name">{{ topic }}</span>
+                        <span class="topic-count">{{ count }} queries</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p class="no-data">No topic data available</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
