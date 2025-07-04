@@ -1,51 +1,101 @@
 timestamp,user_id,message,response,topic,satisfaction
-2025-06-21 14:49:14,user381,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,5
-2025-06-21 15:19:14,user556,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,4
-2025-06-21 15:49:14,user403,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
-2025-06-21 16:19:14,user574,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,5
-2025-06-21 16:49:14,user944,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,4
-2025-06-21 17:19:14,user405,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,2
-2025-06-21 17:49:14,user543,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,3
-2025-06-21 18:19:14,user675,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
-2025-06-21 18:49:14,user970,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,4
-2025-06-21 19:19:14,user748,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,5
-2025-06-21 19:49:14,user815,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,1
-2025-06-21 20:19:14,user394,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,5
-2025-06-21 20:49:14,user706,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,2
-2025-06-21 21:19:14,user797,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,4
-2025-06-21 21:49:14,user478,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,1
-2025-06-21 22:19:14,user875,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,2
-2025-06-21 22:49:14,user515,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,3
-2025-06-21 23:19:14,user395,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,5
-2025-06-21 23:49:14,user283,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,2
-2025-06-22 00:19:14,user403,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,3
-2025-06-22 00:49:14,user460,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
-2025-06-22 01:19:14,user141,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,5
-2025-06-22 01:49:14,user230,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
-2025-06-22 02:19:14,user901,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
-2025-06-22 02:49:14,user870,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,2
-2025-06-22 03:19:14,user387,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,4
-2025-06-22 03:49:14,user873,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,1
-2025-06-22 04:19:14,user370,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,5
-2025-06-22 04:49:14,user568,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,5
-2025-06-22 05:19:14,user598,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,5
-2025-06-22 05:49:14,user532,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,3
-2025-06-22 06:19:14,user830,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,5
-2025-06-22 06:49:14,user116,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,3
-2025-06-22 07:19:14,user796,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,2
-2025-06-22 07:49:14,user823,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,1
-2025-06-22 08:19:14,user951,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,4
-2025-06-22 08:49:14,user843,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,5
-2025-06-22 09:19:14,user747,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,2
-2025-06-22 09:49:14,user158,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,3
-2025-06-22 10:19:14,user154,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,5
-2025-06-22 10:49:14,user792,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,2
-2025-06-22 11:19:14,user236,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,1
-2025-06-22 11:49:14,user875,Do you ship internationally?,"Yes, we ship to over 100 countries worldwide.",Shipping Info,3
-2025-06-22 12:19:14,user652,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,2
-2025-06-22 12:49:14,user898,Can I get a refund?,"Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,2
-2025-06-22 13:19:14,user362,Where is my order?,Your order is on the way and should arrive in 2 days.,Order Status,4
-2025-06-22 13:49:14,user875,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,5
-2025-06-22 14:19:14,user771,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,3
-2025-06-22 14:49:14,user352,Tell me more about this product.,This product comes with a 1-year warranty.,Product Inquiry,3
-2025-06-22 15:19:14,user205,My product isn't working.,We're sorry! Can you try restarting the device?,Technical Support,5
+2025-06-21 14:49:14,user381,"Tell me more about this product.","This product comes with a 1-year warranty.",Product Inquiry,5
+2025-06-21 15:19:14,user556,"Where is my order?","Your order is on the way and should arrive in 2 days.",Order Status,4
+2025-06-21 15:49:14,user403,"What colors does this come in?","It’s available in black, white, and blue.",Product Inquiry,3
+2025-06-21 16:19:14,user574,"How do I reset my password?","Click 'Forgot Password' on the login page to reset.",Technical Support,5
+2025-06-21 16:49:14,user944,"Is this product vegan-friendly?","Yes, it’s 100% vegan and cruelty-free.",Product Inquiry,4
+2025-06-21 17:19:14,user405,"Do you ship internationally?","Yes, we ship to over 100 countries worldwide.",Shipping Info,2
+2025-06-21 17:49:14,user543,"What’s the return policy?","You can return items within 30 days of delivery.",Returns,3
+2025-06-21 18:19:14,user675,"Can I change my delivery address?","Yes, contact us within 24 hours of ordering.",Order Status,2
+2025-06-21 18:49:14,user970,"Why was my payment declined?","Please check your card details or contact your bank.",Payment Issue,4
+2025-06-21 19:19:14,user748,"Are there discounts for bulk orders?","Yes, we offer 10% off orders of 10+ items.",Discounts,5
+2025-06-21 19:49:14,user815,"My order is delayed. Why?","There’s a shipping delay due to high demand.",Order Status,1
+2025-06-21 20:19:14,user394,"My product isn't working.","We're sorry! Can you try restarting the device?",Technical Support,5
+2025-06-21 20:49:14,user706,"How do I track my order?","Use the tracking link sent to your email.",Order Status,2
+2025-06-21 21:19:14,user797,"Is this product waterproof?","No, it’s water-resistant but not waterproof.",Product Inquiry,4
+2025-06-21 21:49:14,user478,"Can I cancel my order?","Yes, if it hasn’t shipped yet. Check your email.",Order Status,1
+2025-06-21 22:19:14,user875,"Can I get a refund?","Yes, we've initiated the refund process. It will reflect in 5-7 days.",Refund,2
+2025-06-21 22:49:14,user515,"What’s the warranty period?","The warranty lasts for 1 year from purchase.",Product Inquiry,3
+2025-06-21 23:19:14,user395,"Do you offer express shipping?","Yes, express shipping takes 2-3 business days.",Shipping Info,5
+2025-06-21 23:49:14,user283,"Is this product recyclable?","Yes, it’s made from 100% recyclable materials.",Product Inquiry,2
+2025-06-22 00:19:14,user403,"How do I contact support?","Call us at 1-800-HELP or email support@company.com.",Support,3
+2025-06-22 00:49:14,user460,"What's the battery life?","The battery lasts up to 24 hours on a full charge.",Product Inquiry,2
+2025-06-22 01:19:14,user141,"Do you have a physical store?","No, we're online-only but ship nationwide.",General Info,5
+2025-06-22 01:49:14,user230,"Can I exchange my item?","Yes, within 14 days if unused and in original packaging.",Returns,2
+2025-06-22 02:19:14,user901,"Is assembly required?","No, it comes fully assembled.",Product Inquiry,2
+2025-06-22 02:49:14,user870,"What's the weight limit?","The maximum weight capacity is 200 lbs.",Product Inquiry,2
+2025-06-22 03:19:14,user387,"Are there hidden fees?","No, all fees are shown at checkout.",Payment Issue,4
+2025-06-22 03:49:14,user873,"My item arrived damaged.","We'll send a replacement ASAP. Please email photos.",Returns,1
+2025-06-22 04:19:14,user370,"When will restocking happen?","Restocking is expected next week.",Product Inquiry,5
+2025-06-22 04:49:14,user568,"Can I modify my order?","Only if it hasn't shipped. Contact us immediately.",Order Status,5
+2025-06-22 05:19:14,user598,"Is the packaging eco-friendly?","Yes, we use biodegradable materials.",Product Inquiry,5
+2025-06-22 05:49:14,user532,"Why was my account locked?","This happens after 3 failed login attempts. Reset your password.",Account Issue,3
+2025-06-22 06:19:14,user830,"Do you price match?","Yes, with proof of a lower price from a competitor.",Discounts,5
+2025-06-22 06:49:14,user116,"What's the return shipping cost?","It's free for defective items; otherwise, $5.",Returns,3
+2025-06-22 07:19:14,user796,"Can I get a partial refund?","Yes, if the issue is minor. Email us details.",Refund,2
+2025-06-22 07:49:14,user823,"How do I use this feature?","Refer to the manual or watch our tutorial video.",Technical Support,1
+2025-06-22 08:19:14,user951,"Do you offer gift wrapping?","Yes, for an additional $3 at checkout.",General Info,4
+2025-06-22 08:49:14,user843,"Is this compatible with iPhone?","Yes, it works with all iPhone models.",Product Inquiry,5
+2025-06-22 09:19:14,user747,"Can I pause my subscription?","Yes, log in to your account to manage it.",Subscription,2
+2025-06-22 09:49:14,user158,"What's the lead time?","Most orders ship within 1-2 business days.",Shipping Info,3
+2025-06-22 10:19:14,user154,"My product overheats.","Stop using it and contact us for a replacement.",Technical Support,5
+2025-06-22 10:49:14,user792,"Is there a loyalty program?","Yes, earn points for every dollar spent.",Discounts,2
+2025-06-22 11:19:14,user236,"Why is my account not verified?","Check your email for the verification link.",Account Issue,1
+2025-06-22 11:49:14,user875,"Do you accept PayPal?","Yes, PayPal is a payment option.",Payment Issue,3
+2025-06-22 12:19:14,user652,"Can I pre-order this item?","Yes, pre-orders ship on the release date.",Order Status,2
+2025-06-22 12:49:14,user898,"What's the shelf life?","The shelf life is 2 years from manufacture date.",Product Inquiry,2
+2025-06-22 13:19:14,user362,"How do I apply a promo code?","Enter it at checkout under 'Promo Code'.",Discounts,4
+2025-06-22 13:49:14,user875,"Is this product FDA-approved?","Yes, it meets all FDA standards.",Product Inquiry,5
+2025-06-22 14:19:14,user771,"Can I get an invoice?","Your invoice is emailed after purchase.",General Info,3
+2025-06-22 14:49:14,user352,"What's the shipping carrier?","We use UPS, FedEx, and USPS.",Shipping Info,3
+2025-06-22 15:19:14,user205,"My product's button is stuck.","We'll send a replacement. Email us a video.",Technical Support,5
+2025-06-22 15:49:14,user301,"Is this product gluten-free?","Yes, it's certified gluten-free.",Product Inquiry,4
+2025-06-22 16:19:14,user412,"Can I change my order's color?","Only if it hasn't shipped. Contact us now.",Order Status,1
+2025-06-22 16:49:14,user523,"Do you offer student discounts?","Yes, with a valid student ID.",Discounts,5
+2025-06-22 17:19:14,user634,"What's the power consumption?","It uses 50W per hour.",Product Inquiry,2
+2025-06-22 17:49:14,user745,"Why is my refund delayed?","Refunds take 5-7 business days to process.",Refund,3
+2025-06-22 18:19:14,user856,"Is this product fireproof?","No, it's not fireproof.",Product Inquiry,2
+2025-06-22 18:49:14,user967,"Can I get a refund without returning?","Only for digital products.",Refund,1
+2025-06-22 19:19:14,user178,"What's the warranty coverage?","It covers manufacturing defects only.",Product Inquiry,4
+2025-06-22 19:49:14,user289,"Do you have a mobile app?","Yes, download it from the App Store or Google Play.",General Info,5
+2025-06-22 20:19:14,user390,"Is this product noisy?","It operates at 30dB, quieter than a whisper.",Product Inquiry,3
+2025-06-22 20:49:14,user401,"Can I return a gift?","Yes, with the original receipt.",Returns,2
+2025-06-22 21:19:14,user512,"What's the country of origin?","It's made in the USA.",Product Inquiry,5
+2025-06-22 21:49:14,user623,"How do I clean this product?","Use a damp cloth; avoid harsh chemicals.",Product Inquiry,1
+2025-06-22 22:19:14,user734,"Is there a setup fee?","No, setup is free.",General Info,4
+2025-06-22 22:49:14,user845,"Can I extend my warranty?","Yes, for an additional fee at purchase.",Product Inquiry,3
+2025-06-22 23:19:14,user956,"Do you offer same-day delivery?","Only in select cities.",Shipping Info,2
+2025-06-22 23:49:14,user167,"What's the return window?","30 days for most items.",Returns,5
+2025-06-23 00:19:14,user278,"Is this product energy-efficient?","Yes, it's Energy Star certified.",Product Inquiry,4
+2025-06-23 00:49:14,user389,"Can I split my payment?","Yes, use two cards at checkout.",Payment Issue,1
+2025-06-23 01:19:14,user490,"Is this product wireless?","Yes, it connects via Bluetooth.",Product Inquiry,5
+2025-06-23 01:49:14,user591,"What's the resolution?","The resolution is 1920x1080 HD.",Product Inquiry,3
+2025-06-23 02:19:14,user602,"Can I change my subscription plan?","Yes, anytime from your account.",Subscription,2
+2025-06-23 02:49:14,user713,"Is this product pet-friendly?","Yes, it's non-toxic for pets.",Product Inquiry,4
+2025-06-23 03:19:14,user824,"Do you offer free samples?","No, we don't provide samples.",General Info,1
+2025-06-23 03:49:14,user935,"What's the storage temperature?","Store between 50°F and 77°F.",Product Inquiry,5
+2025-06-23 04:19:14,user146,"Can I get a discount code?","Sign up for our newsletter for 10% off.",Discounts,3
+2025-06-23 04:49:14,user257,"Is this product unisex?","Yes, it's designed for all genders.",Product Inquiry,2
+2025-06-23 05:19:14,user368,"Do you offer bulk discounts?","Yes, contact sales@company.com for quotes.",Discounts,4
+2025-06-23 05:49:14,user479,"What's the trial period?","14 days for most services.",General Info,5
+2025-06-23 06:19:14,user580,"Is this product hypoallergenic?","Yes, it's dermatologist-tested.",Product Inquiry,3
+2025-06-23 06:49:14,user691,"Can I resell this product?","Yes, but warranty applies only to original buyers.",General Info,2
+2025-06-23 07:19:14,user702,"What's the maximum capacity?","It holds up to 1 liter.",Product Inquiry,1
+2025-06-23 07:49:14,user813,"Do you offer installation services?","Yes, for an additional fee.",General Info,4
+2025-06-23 08:19:14,user924,"Is this product foldable?","Yes, it's compact and foldable.",Product Inquiry,5
+2025-06-23 08:49:14,user135,"Can I upgrade my order?","Yes, if it hasn't shipped. Contact us.",Order Status,3
+2025-06-23 09:19:14,user246,"What's the material?","It's made from stainless steel.",Product Inquiry,2
+2025-06-23 09:49:14,user357,"Is this product rust-proof?","Yes, it's coated to prevent rust.",Product Inquiry,4
+2025-06-23 10:19:14,user468,"Can I get a digital receipt?","Yes, it's emailed after purchase.",General Info,5
+2025-06-23 10:49:14,user579,"What's the lifespan?","It lasts approximately 5 years with proper care.",Product Inquiry,3
+2025-06-23 11:19:14,user680,"Do you offer expedited returns?","No, standard return shipping applies.",Returns,1
+2025-06-23 11:49:14,user791,"Is this product child-safe?","Yes, it meets all child safety standards.",Product Inquiry,5
+2025-06-23 12:19:14,user802,"Can I combine coupons?","No, only one coupon per order.",Discounts,2
+2025-06-23 12:49:14,user913,"What's the thread count?","The thread count is 400.",Product Inquiry,4
+2025-06-23 13:19:14,user124,"Is this product microwave-safe?","No, it's not microwave-safe.",Product Inquiry,3
+2025-06-23 13:49:14,user235,"Can I schedule a delivery?","Yes, during checkout.",Shipping Info,5
+2025-06-23 14:19:14,user346,"What's the voltage requirement?","It works on 110V-240V.",Product Inquiry,2
+2025-06-23 14:49:14,user457,"Is this product scented?","No, it's fragrance-free.",Product Inquiry,1
+2025-06-23 15:19:14,user568,"Do you offer trade-ins?","No, we don't have a trade-in program.",General Info,4
+2025-06-23 15:49:14,user679,"What's the return address?","Returns go to: 123 Warehouse St, Anytown, USA.",Returns,3
+2025-06-23 16:19:14,user790,"Is this product biodegradable?","Yes, it decomposes within 6 months.",Product Inquiry,5
