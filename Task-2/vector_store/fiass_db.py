@@ -11,7 +11,6 @@ class FAISSVectorStore:
         self.index = faiss.IndexFlatL2(dim)
         self.text_chunks = []
 
-        # Load existing if present
         if os.path.exists(index_path) and os.path.exists(metadata_path):
             self.load()
 
@@ -24,10 +23,21 @@ class FAISSVectorStore:
         self.save()
 
     def search(self, query_embedding, top_k=3):
+        if self.index.ntotal == 0:
+            print("FAISS index is empty. Add some embeddings first.")
+            return []
+
         query_vector = np.array([query_embedding]).astype("float32")
         distances, indices = self.index.search(query_vector, top_k)
-        results = [self.text_chunks[i] for i in indices[0] if i < len(self.text_chunks)]
+        print("🔍 indices:", indices) 
+
+        results = [
+            self.text_chunks[i]
+            for i in indices[0]
+            if 0 <= i < len(self.text_chunks)
+        ]
         return results
+
 
     def save(self):
         faiss.write_index(self.index, self.index_path)
