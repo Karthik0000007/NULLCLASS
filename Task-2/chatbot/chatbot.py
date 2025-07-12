@@ -21,19 +21,13 @@ def generate_rag_response(user_query, top_k=3):
     top_chunks = store.search(query_embedding, top_k=top_k)
 
     context = "\n\n".join(top_chunks)
-    prompt = f"""You are a helpful assistant.
+    prompt = f"""You are a helpful assistant. Use the following context to answer the user's question. 
+    {context}
 
-Use the following context to answer the user's question.
+    {user_query}
 
-### CONTEXT ###
-{context}
-
-### USER QUERY ###
-{user_query}
-
-Answer in a clear and helpful way:
+    Answer clearly:
 """
-
     return query_ollama(prompt)
 
 # Testing 

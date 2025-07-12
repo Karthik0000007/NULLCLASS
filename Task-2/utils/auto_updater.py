@@ -8,9 +8,16 @@ def get_all_texts(source_folder="sources"):
     texts = []
     for fname in os.listdir(source_folder):
         if fname.endswith(".txt"):
-            with open(os.path.join(source_folder, fname), "r", encoding="utf-8") as f:
-                texts.append(f.read())
+            path = os.path.join(source_folder, fname)
+            with open(path, "rb") as f:  # Read in binary mode
+                try:
+                    raw = f.read()
+                    decoded = raw.decode("utf-8")
+                except UnicodeDecodeError:
+                    decoded = raw.decode("utf-16", errors="ignore")  # fallback
+            texts.append(decoded)
     return texts
+
 
 def refresh_vector_store():
     print("Updating vector store...")
@@ -41,3 +48,5 @@ def start_scheduler(interval_minutes=30):
     except (KeyboardInterrupt, SystemExit):
         scheduler.shutdown()
         print("Scheduler stopped.")
+
+

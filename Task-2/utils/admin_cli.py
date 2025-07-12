@@ -34,7 +34,6 @@ def manual_update():
 
 def dashboard():
     while True:
-        print("\n============================")
         print("Knowledge Base Admin CLI")
         print("============================")
         print("1. View Sources")

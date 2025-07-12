@@ -29,7 +29,7 @@ class FAISSVectorStore:
 
         query_vector = np.array([query_embedding]).astype("float32")
         distances, indices = self.index.search(query_vector, top_k)
-        print("🔍 indices:", indices) 
+        print("indices:", indices) 
 
         results = [
             self.text_chunks[i]
@@ -37,7 +37,6 @@ class FAISSVectorStore:
             if 0 <= i < len(self.text_chunks)
         ]
         return results
-
 
     def save(self):
         faiss.write_index(self.index, self.index_path)
@@ -48,3 +47,5 @@ class FAISSVectorStore:
         self.index = faiss.read_index(self.index_path)
         with open(self.metadata_path, "rb") as f:
             self.text_chunks = pickle.load(f)
+
+
