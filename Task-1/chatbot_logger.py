@@ -11,10 +11,4 @@ def log_interaction(user_id, message, response, topic, satisfaction=None):
         if not log_exists:
             writer.writerow(["timestamp", "user_id", "message", "response", "topic", "satisfaction"])
         writer.writerow([
-            datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            user_id,
-            message,
-            response,
-            topic,
-            satisfaction
-        ])
+            datetime.now().strftime("%Y-%m-%d %H:%M:%S"), user_id, message, response, topic, satisfaction])
