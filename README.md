@@ -35,7 +35,55 @@ Task-1/
 ├── analytics_utils.py
 ├── customer_service_interactions.csv
 ├── requirements.txt
-├── README.md
 └── templates/
     └── dashboard.html
 ```
+# Task-2 Dynamic Knowledge Base Chatbot
+
+## 📌 Overview
+This project implements a **Retrieval-Augmented Generation (RAG)** powered Customer Service Chatbot that dynamically updates its knowledge base. It uses local embeddings, FAISS vector store, and a local Ollama LLM to answer queries using up-to-date, embedded documents.
+
+## 🧰 Features
+- 🧠 RAG-powered chatbot using sentence-transformers + FAISS
+- 💬 LLM backend via Ollama (local)
+- 🔁 Auto-update system for ingesting new documents from /sources
+- 📁 CLI Admin Tool for manual DB refresh and source monitoring
+- 🧠 Chunk-based embedding using nltk + MiniLM
+
+## 🛠️ How to Run
+
+### 1. Clone this project and navigate to the folder
+```bash
+git clone <https://github.com/Karthik0000007/NULLCLASS>
+cd Task-2
+```
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3 Make sure Ollama is running
+```bash
+ollama run llama3
+```
+### 4. Start the chatbot
+```bash
+python -m chatbot.chatbot
+```
+## File Structure
+```bash
+Task-2/
+├── chatbot/
+│   ├── chatbot.py
+├── embeddings/
+│   ├── embedder.py
+├── vector_store/
+│   ├── faiss_db.py
+│   ├── last_update.txt
+├── utils/
+│   ├── auto_updater.py
+│   ├── admin_cli.py
+├── sources/
+│   └── support_ai.txt
+├── requirements.txt
+
+
