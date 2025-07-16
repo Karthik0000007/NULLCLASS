@@ -19,9 +19,13 @@ def query_ollama(prompt, model_name="llama3"):
     return result.stdout.decode("utf-8").strip()
 
 def generate_rag_response(user_query, top_k=3):
+    if not user_query.strip():
+        return "⚠️ I'm here to help! Please enter your question or concern."
 
     sentiment = analyze_sentiment(user_query)
+
     query_embedding = model.encode([user_query])[0]
+
     store = FAISSVectorStore()
     top_chunks = store.search(query_embedding, top_k=top_k)
     context = "\n\n".join(top_chunks)
@@ -30,23 +34,22 @@ def generate_rag_response(user_query, top_k=3):
         "positive": "Maintain a cheerful, thankful tone.",
         "neutral": "Be clear, professional, and helpful.",
         "negative": "Be empathetic, apologize briefly, and offer clear solutions."
-    }[sentiment]
+    }.get(sentiment, "Be polite and helpful.")
 
     prompt = f"""
-You are a helpful customer service chatbot.
-
-Use the following knowledge to answer the user question.
+You are a helpful customer support assistant.
 Tone guide: {tone}
 
- CONTEXT 
+Use this info to help the user:
 {context}
 
- USER QUERY 
+USER QUESTION:
 {user_query}
 
-Answer appropriately:
+Respond appropriately:
 """
     return query_ollama(prompt)
+
 
 #Testing the RAG response generation
 if __name__ == "__main__":
