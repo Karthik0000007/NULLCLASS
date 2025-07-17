@@ -20,7 +20,7 @@ def query_ollama(prompt, model_name="llama3"):
 
 def generate_rag_response(user_query, top_k=3):
     if not user_query.strip():
-        return "⚠️ I'm here to help! Please enter your question or concern."
+        return "I'm here to help! Please enter your question or concern."
 
     sentiment = analyze_sentiment(user_query)
 
@@ -29,6 +29,13 @@ def generate_rag_response(user_query, top_k=3):
     store = FAISSVectorStore()
     top_chunks = store.search(query_embedding, top_k=top_k)
     context = "\n\n".join(top_chunks)
+
+    fallback_templates = {
+    "positive": "Thank you for your message! I'm here to assist — could you provide a bit more detail so I can help better?",
+    "neutral": "Thanks for reaching out. I’ll need a little more context to guide you properly. Could you rephrase or add details?",
+    "negative": "I’m really sorry you’re going through this. I’ll do my best to help — can you clarify what the issue is?",
+    "default": "Thanks for your message. Let’s try that again — could you tell me a bit more?"
+   }
 
     tone = {
         "positive": "Maintain a cheerful, thankful tone.",
@@ -48,11 +55,15 @@ USER QUESTION:
 
 Respond appropriately:
 """
-    return query_ollama(prompt)
+    response = query_ollama(prompt)
+    if not response or response.strip().lower() in ["i don't know", "not sure", "no answer", ""]:
+        return fallback_templates.get(sentiment, fallback_templates["default"])
+    
+    return response
 
 
 #Testing the RAG response generation
 if __name__ == "__main__":
-    user_input = "I'm very frustrated, nothing is working."
+    user_input = "What's the status of my order? I was promised it would arrive yesterday, but it hasn't shown up yet."
     response = generate_rag_response(user_input)
     print(f"\nFinal Answer:\n{response}")
