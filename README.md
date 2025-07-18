@@ -85,5 +85,43 @@ Task-2/
 ├── sources/
 │   └── support_ai.txt
 ├── requirements.txt
+```
 
+# Task:3 Sentiment-Aware Chatbot
 
+## 📌 Overview
+This task enhances the existing chatbot system by integrating Sentiment Analysis, allowing the bot to detect and respond appropriately to the emotional tone of user messages. The chatbot is now capable of recognizing positive, neutral, and negative sentiments and tailoring its replies to better engage with users.
+
+## 🧠 Features
+- Sentiment Detection: Uses a fine-tuned NLP model (e.g., Vader, TextBlob, or HuggingFace Transformers) to classify text sentiment.
+- Context-Aware Response Engine: Dynamically adjusts chatbot responses based on detected emotion.
+- Modular Integration: Clean plug-and-play analyze_sentiment() function for use across any dialogue system.
+- Fallbacks: Handles ambiguous or mixed sentiment with neutral defaults.
+
+## 🛠️ How to Run
+
+### 1. Clone this project and navigate to the folder
+```bash
+git clone <https://github.com/Karthik0000007/NULLCLASS>
+cd Task-3
+```
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Start the chatbot
+```bash
+streamlit run app.py
+```
+
+## File Structure
+```bash
+Task-3/
+│
+├── sentiment/
+│   ├── analyzer.py              
+│   └── test_analyzer.py        
+│
+├── app.py
+├── requirements.txt
+```
